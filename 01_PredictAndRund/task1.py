@@ -14,5 +14,11 @@ reg3 = re.compile("This")
 match = reg3.match(text)
 print(match)
 
+reg4 = re.compile("cost")
+match = reg4.match(text)
+print(match)
+match = reg4.search(text)
+print(match)
+
 match = reg1.search(text)
 print(match)

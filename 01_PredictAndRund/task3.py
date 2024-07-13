@@ -39,9 +39,9 @@ print(reg.match(string))
 
 reg = re.compile("\\\\.")
 print(reg.match(string))
-
 reg = re.compile("\\\\\.")
 print(reg.match(string))
+#verstehe nicht warum hier das gleiche heraus kommt.
 
 text = "This book on tennis cost $3.99 at Walmart."
 
